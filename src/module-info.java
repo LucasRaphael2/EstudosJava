@@ -1,11 +1,9 @@
-/**
- * 
- */
-/**
- * 
- */
-module EstudosJava {
+module estudosBackEnd {
+	requires javafx.controls;
 	requires javafx.graphics;
 	requires javafx.fxml;
-	requires javafx.controls;
+	requires javafx.base;
+	requires java.desktop;
+	
+	
 }
