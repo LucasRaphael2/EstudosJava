@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button fx:id="BotaoDeAcao" layoutX="14.0" layoutY="72.0" mnemonicParsing="false" onAction="#cardapio" text="CARDÁPIO" underline="true" />
+      <Button fx:id="BotaoDeAcao" layoutX="14.0" layoutY="72.0" mnemonicParsing="false" onAction="#BotaoDeAcao" text="CARDÁPIO" underline="true" />
       <Label fx:id="label" layoutX="71.0" layoutY="25.0" prefHeight="38.0" prefWidth="258.0" text="      Lanchonete do Gordão     ">
          <font>
             <Font name="SansSerif Bold" size="15.0" />

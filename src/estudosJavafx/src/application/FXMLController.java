@@ -1,8 +1,7 @@
-package application;
+package estudosJavafx.src.application;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -18,7 +17,7 @@ public class FXMLController implements Initializable {
     private Label label;
 
     @FXML
-	void cardapio(ActionEvent event) {
+	void BotaoDeAcao(ActionEvent event) {
     	System.out.println("You clicked me!");
 
 	}
