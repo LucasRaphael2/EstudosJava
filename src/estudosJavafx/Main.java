@@ -8,7 +8,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
+	
 	public void start(Stage primaryStage) throws IOException {
 		
 		AnchorPane root = FXMLLoader.load(getClass().getResource("FirstProject.fxml"));
